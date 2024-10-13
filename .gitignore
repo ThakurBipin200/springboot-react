@@ -33,4 +33,6 @@ build/
 .vscode/
 
 #Front-end
+# Ignore all files inside the static folder except .keep
 /src/main/resources/static/*
+!/src/main/resources/static/.keep
